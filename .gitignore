@@ -47,3 +47,5 @@ CMakeDoxygenDefaults.cmake
 CPackConfig.cmake
 CPackSourceConfig.cmake
 tawerna
+.cache
+.vscode
