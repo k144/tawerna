@@ -22,8 +22,9 @@ project(tawerna
   LANGUAGES CXX
   VERSION 1.0.0
 )
- 
+
 add_executable(tawerna main.cpp)
+
 target_include_directories(tawerna PRIVATE .)
  
 target_link_libraries(tawerna
