@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tawerna" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tawerna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="ftxui" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tawerna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ftxui/component/animation.hpp" />
+		<Unit filename="ftxui/component/captured_mouse.hpp" />
+		<Unit filename="ftxui/component/component.hpp" />
+		<Unit filename="ftxui/component/component_base.hpp" />
+		<Unit filename="ftxui/component/component_options.hpp" />
+		<Unit filename="ftxui/component/event.hpp" />
+		<Unit filename="ftxui/component/mouse.hpp" />
+		<Unit filename="ftxui/component/receiver.hpp" />
+		<Unit filename="ftxui/component/screen_interactive.hpp" />
+		<Unit filename="ftxui/component/task.hpp" />
+		<Unit filename="ftxui/dom/canvas.hpp" />
+		<Unit filename="ftxui/dom/deprecated.hpp" />
+		<Unit filename="ftxui/dom/elements.hpp" />
+		<Unit filename="ftxui/dom/flexbox_config.hpp" />
+		<Unit filename="ftxui/dom/node.hpp" />
+		<Unit filename="ftxui/dom/requirement.hpp" />
+		<Unit filename="ftxui/dom/table.hpp" />
+		<Unit filename="ftxui/dom/take_any_args.hpp" />
+		<Unit filename="ftxui/screen/box.hpp" />
+		<Unit filename="ftxui/screen/color.hpp" />
+		<Unit filename="ftxui/screen/color_info.hpp" />
+		<Unit filename="ftxui/screen/deprecated.hpp" />
+		<Unit filename="ftxui/screen/screen.hpp" />
+		<Unit filename="ftxui/screen/string.hpp" />
+		<Unit filename="ftxui/screen/terminal.hpp" />
+		<Unit filename="ftxui/util/autoreset.hpp" />
+		<Unit filename="ftxui/util/ref.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
