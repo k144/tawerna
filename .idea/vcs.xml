@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_deps/ftxui-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tawerna-debil" vcs="Git" />
   </component>
 </project>
