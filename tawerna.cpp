@@ -20,7 +20,16 @@ int MenuGlowne::menu()
     return 0;
 }
 
+int Zamowienie::zliczKoszt() 
+{
+    int koszt = 0;
+    for (int i = 0; i < pozycje.size(); i++)
+    {
+        koszt += pozycje[i].ilosc * pozycje[i].danie.cena;
+    }
 
+    return koszt; 
+}
 
 void wypisz(const Danie &danie, string end="\n\n")
 {
