@@ -56,6 +56,7 @@ public:
     int stolik {};
     time_t preferowanyCzas {};
     vector<Pozycja> pozycje {};
+    int zliczKoszt();
 };
 
 void wypisz(const Danie &danie, string end);
