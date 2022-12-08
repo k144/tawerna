@@ -15,6 +15,7 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 		string line;
 		while (getline(file, line))
 		{
+			int kategoria;
 			string nazwa;
 			int cena = 0;
 			int czasPodania = 0;
@@ -23,6 +24,18 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 			string temp;
 			int it = 0;
 
+			for (it; it < line.length(); it++)
+			{
+
+				if (line[it] == ';')
+				{
+					kategoria = stoi(temp);
+					temp = " ";
+					it++;
+					break;
+				}
+				temp += line[it];
+			}
 			for (it; it < line.length(); it++)
 			{
 
@@ -72,7 +85,7 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 			}
 			skladniki.push_back(temp);
 
-			Danie danie(nazwa, cena, czasPodania);
+			Danie danie(kategoria, nazwa, cena, czasPodania);
 			danie.skladniki = skladniki;
 			dania.push_back(danie);
 		}
@@ -95,7 +108,7 @@ int main() {
 			 Danie("Tatar awatar", 17, 10)
 	 };*/
 
-	wszystkieDania = wczytajDaniazPliku("SpisDanAnia.txt");
+	wszystkieDania = wczytajDaniazPliku("SpisDan.csv");
 
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
