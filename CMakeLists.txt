@@ -1,8 +1,10 @@
-cmake_minimum_required(VERSION 3.23)
-project(tawerna)
+cmake_minimum_required(VERSION 3.5)
+project(tawerna
+        LANGUAGES CXX)
 
 add_executable(tawerna
         main.cpp
         tawerna.h
-        tawerna.cpp
-        karta_dan.txt)
+        tawerna.cpp)
+
+target_compile_features(tawerna PRIVATE cxx_std_20)

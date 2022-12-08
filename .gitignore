@@ -49,3 +49,8 @@ CPackSourceConfig.cmake
 tawerna
 .cache
 .vscode
+.cmake
+.ninja_deps
+.ninja_log
+build.ninja
+

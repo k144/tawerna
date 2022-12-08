@@ -1,4 +1,5 @@
 #include "tawerna.h"
+#include <iostream>
 
 vector<Danie> wszystkieDania;
 Zamowienie zamowienie;
@@ -16,6 +17,6 @@ int main() {
 
     wypisz(wszystkieDania);
     wypisz(zamowienie);
-
+    std::cout << zamowienie.zliczKoszt() << "\n";
     return 0;
 }
