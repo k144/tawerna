@@ -15,7 +15,7 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 		string line;
 		while (getline(file, line))
 		{
-			int kategoria;
+			int kategoria = 0;
 			string nazwa;
 			int cena = 0;
 			int czasPodania = 0;
