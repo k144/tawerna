@@ -4,6 +4,32 @@
 
 vector<Danie> wszystkieDania;
 Zamowienie zamowienie;
+bool sprawdzenieDania(Danie danie) {
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (pozycja.danie.nazwa == danie.nazwa)
+			return true;
+	}
+	return false;
+}
+void zamowDanie(Danie danie)
+{
+	if (!sprawdzenieDania(danie))
+	{
+		Pozycja pozycja(danie, 1);
+		zamowienie.pozycje.emplace_back(pozycja);
+		return;
+	}
+	Pozycja *znaleziona;
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (pozycja.danie.nazwa == danie.nazwa)
+			znaleziona = &pozycja;
+	}
+	znaleziona->ilosc+=1;
+}
+
+
 
 vector<Danie> wczytajDaniazPliku(string sciezka)
 {
@@ -108,11 +134,13 @@ int main() {
 	 };*/
 
 	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
+	Danie *dupa = &wszystkieDania[1];
 
+	
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
 	//zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
-
+	
 	wypisz(wszystkieDania);
 	wypisz(zamowienie);
 	std::cout << zamowienie.zliczKoszt() << "\n";

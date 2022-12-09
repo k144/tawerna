@@ -60,6 +60,7 @@ void wypisz(const Zamowienie &zamowienie)
     cout << (zamowienie.naWynos ? "na wynos" : "na miejscu");
     cout << ": \n";
     size_t count = 0;
+
     for (auto &pozycja : zamowienie.pozycje) {
         cout << "\t[" << count++ << "]: ";
         wypisz(pozycja, "\n");

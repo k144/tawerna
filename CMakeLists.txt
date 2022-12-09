@@ -10,8 +10,4 @@ add_executable(tawerna
 target_compile_features(tawerna PRIVATE cxx_std_20)
 
 set_target_properties(tawerna PROPERTIES
-<<<<<<< HEAD
         RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
-=======
-        RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
->>>>>>> e13346c005c485f32f20900d86f8f3869f979838
