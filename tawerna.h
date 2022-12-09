@@ -59,6 +59,7 @@ public:
     time_t preferowanyCzas {};
     vector<Pozycja> pozycje {};
     int zliczKoszt();
+    int czasZamowienia();
 };
 
 void wypisz(const Danie &danie, string end);

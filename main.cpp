@@ -44,8 +44,16 @@ void usunDanie(Danie danie)
 		}
 	znaleziona->ilosc -= 1;
 }
-
-
+/*void najdluzszyCzas(Danie danie)
+{
+	int najCzas = 0;
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (najCzas < pozycja.danie.czasWykonaniaMin)
+			najCzas = pozycja.danie.czasWykonaniaMin;
+	}
+}
+*/
 
 vector<Danie> wczytajDaniazPliku(string sciezka)
 {
@@ -150,12 +158,9 @@ int main() {
 	 };*/
 
 	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
-	Danie *dupa = &wszystkieDania[1];
-	Danie* dupaX = &wszystkieDania[5];
-	Danie* dupaY = &wszystkieDania[6];
+	
 
-	
-	
+
 
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
@@ -163,6 +168,7 @@ int main() {
 	
 	wypisz(wszystkieDania);
 	wypisz(zamowienie);
-	std::cout << zamowienie.zliczKoszt() << "\n";
+	std::cout << "czas zamowienia: " << zamowienie.czasZamowienia() << "\n";
+	std::cout << "koszt zamowiena: " << zamowienie.zliczKoszt() << "\n";
 	return 0;
 }
