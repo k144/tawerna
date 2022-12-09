@@ -4,6 +4,32 @@
 
 vector<Danie> wszystkieDania;
 Zamowienie zamowienie;
+bool sprawdzenieDania(Danie danie) {
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (pozycja.danie.nazwa == danie.nazwa)
+			return true;
+	}
+	return false;
+}
+void zamowDanie(Danie danie)
+{
+	if (!sprawdzenieDania(danie))
+	{
+		Pozycja pozycja(danie, 1);
+		zamowienie.pozycje.emplace_back(pozycja);
+		return;
+	}
+	Pozycja *znaleziona;
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (pozycja.danie.nazwa == danie.nazwa)
+			znaleziona = &pozycja;
+	}
+	znaleziona->ilosc+=1;
+}
+
+
 
 vector<Danie> wczytajDaniazPliku(string sciezka)
 {
@@ -15,14 +41,27 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 		string line;
 		while (getline(file, line))
 		{
+			int kategoria = 0;
 			string nazwa;
 			int cena = 0;
 			int czasPodania = 0;
 			vector <string> skladniki;
 
-			string temp;
+			string temp = "";
 			int it = 0;
 
+			for (it; it < line.length(); it++)
+			{
+
+				if (line[it] == ';')
+				{
+					kategoria = stoi(temp);
+					temp = " ";
+					it++;
+					break;
+				}
+				temp += line[it];
+			}
 			for (it; it < line.length(); it++)
 			{
 
@@ -72,7 +111,7 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 			}
 			skladniki.push_back(temp);
 
-			Danie danie(nazwa, cena, czasPodania);
+			Danie danie(kategoria, nazwa, cena, czasPodania);
 			danie.skladniki = skladniki;
 			dania.push_back(danie);
 		}
@@ -87,7 +126,6 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 	return dania;
 }
 
-
 int main() {
 	/* wszystkieDania = {
 			 Danie("Kebs", 25, 15),
@@ -95,12 +133,14 @@ int main() {
 			 Danie("Tatar awatar", 17, 10)
 	 };*/
 
-	wszystkieDania = wczytajDaniazPliku("SpisDanAnia.txt");
+	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
+	Danie *dupa = &wszystkieDania[1];
 
+	
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
 	//zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
-
+	
 	wypisz(wszystkieDania);
 	wypisz(zamowienie);
 	std::cout << zamowienie.zliczKoszt() << "\n";

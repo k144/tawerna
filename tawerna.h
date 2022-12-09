@@ -16,12 +16,14 @@ class Danie
     friend class MenuGlowne;
     void menu_dan();
 public:
+    short int kategoria {};
     string nazwa {};
     short int cena {};
     unsigned short int czasWykonaniaMin {};
     vector<string> skladniki {};
-    Danie(string nazwa, short int cena, unsigned short int czasWykonaniaMin)
-        : nazwa(nazwa),
+    Danie(short int kategoria, string nazwa, short int cena, unsigned short int czasWykonaniaMin)
+        : kategoria(kategoria),
+          nazwa(nazwa),
           cena(cena),
           czasWykonaniaMin(czasWykonaniaMin)
     {

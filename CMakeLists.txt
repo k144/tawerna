@@ -8,3 +8,6 @@ add_executable(tawerna
         tawerna.cpp)
 
 target_compile_features(tawerna PRIVATE cxx_std_20)
+
+set_target_properties(tawerna PROPERTIES
+        RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
