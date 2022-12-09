@@ -31,6 +31,17 @@ int Zamowienie::zliczKoszt()
     return koszt; 
 }
 
+int Zamowienie::czasZamowienia()
+{
+    int czasZam = 0;
+    for (int i = 0; i < pozycje.size(); i++)
+    {
+        if (czasZam < pozycje[i].danie.czasWykonaniaMin)
+            czasZam = pozycje[i].danie.czasWykonaniaMin;
+    }
+    return czasZam;
+}
+
 void wypisz(const Danie &danie, string end="\n\n")
 {
     cout << danie.nazwa << " (" << danie.cena << WALUTA << ", " << danie.czasWykonaniaMin << " min)" << end;
@@ -59,12 +70,12 @@ void wypisz(const Zamowienie &zamowienie)
     cout << "Zamowienie nr. " << zamowienie.numer << ", ";
     cout << (zamowienie.naWynos ? "na wynos" : "na miejscu");
     cout << ": \n";
+
     size_t count = 0;
 
     for (auto &pozycja : zamowienie.pozycje) {
         cout << "\t[" << count++ << "]: ";
         wypisz(pozycja, "\n");
     }
-
 }
 

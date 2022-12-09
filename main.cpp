@@ -4,32 +4,56 @@
 
 vector<Danie> wszystkieDania;
 Zamowienie zamowienie;
-bool sprawdzenieDania(Danie danie) {
-	for (auto& pozycja : zamowienie.pozycje)
-	{
-		if (pozycja.danie.nazwa == danie.nazwa)
-			return true;
-	}
-	return false;
-}
+
 void zamowDanie(Danie danie)
 {
-	if (!sprawdzenieDania(danie))
-	{
-		Pozycja pozycja(danie, 1);
-		zamowienie.pozycje.emplace_back(pozycja);
-		return;
-	}
-	Pozycja *znaleziona;
+	
+	Pozycja *znaleziona = NULL;
 	for (auto& pozycja : zamowienie.pozycje)
 	{
 		if (pozycja.danie.nazwa == danie.nazwa)
 			znaleziona = &pozycja;
 	}
+	if (znaleziona == NULL) 
+	{
+		Pozycja pozycja(danie, 1);
+		zamowienie.pozycje.emplace_back(pozycja);
+		return;
+	}
 	znaleziona->ilosc+=1;
 }
-
-
+void usunDanie(Danie danie)
+{
+	Pozycja* znaleziona = NULL;
+	size_t poz = 0;
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (pozycja.danie.nazwa == danie.nazwa)
+			{
+				znaleziona = &pozycja;
+				break;
+			}
+		poz++;
+	}
+	if (znaleziona == NULL)
+		return;
+	if (znaleziona->ilosc == 1)
+		{
+			zamowienie.pozycje.erase(zamowienie.pozycje.begin() + poz);
+			return;
+		}
+	znaleziona->ilosc -= 1;
+}
+/*void najdluzszyCzas(Danie danie)
+{
+	int najCzas = 0;
+	for (auto& pozycja : zamowienie.pozycje)
+	{
+		if (najCzas < pozycja.danie.czasWykonaniaMin)
+			najCzas = pozycja.danie.czasWykonaniaMin;
+	}
+}
+*/
 
 vector<Danie> wczytajDaniazPliku(string sciezka)
 {
@@ -134,15 +158,17 @@ int main() {
 	 };*/
 
 	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
-	Danie *dupa = &wszystkieDania[1];
-
 	
+
+
+
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
 	//zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
 	
 	wypisz(wszystkieDania);
 	wypisz(zamowienie);
-	std::cout << zamowienie.zliczKoszt() << "\n";
+	std::cout << "czas zamowienia: " << zamowienie.czasZamowienia() << "\n";
+	std::cout << "koszt zamowiena: " << zamowienie.zliczKoszt() << "\n";
 	return 0;
 }
