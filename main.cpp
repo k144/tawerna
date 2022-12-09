@@ -21,7 +21,7 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 			int czasPodania = 0;
 			vector <string> skladniki;
 
-			string temp;
+			string temp = "";
 			int it = 0;
 
 			for (it; it < line.length(); it++)
@@ -100,7 +100,6 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 	return dania;
 }
 
-
 int main() {
 	/* wszystkieDania = {
 			 Danie("Kebs", 25, 15),
@@ -108,7 +107,7 @@ int main() {
 			 Danie("Tatar awatar", 17, 10)
 	 };*/
 
-	wszystkieDania = wczytajDaniazPliku("SpisDan.csv");
+	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
 
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
