@@ -150,25 +150,52 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 	return dania;
 }
 
+
+string generujParagon()
+{
+    string paragon;
+    stringstream ss;
+
+    cout << zamowienie.imieKlienta << endl;
+    if (zamowienie.naWynos != zamowienie.stolik) {
+        cout << zamowienie.adres << endl;
+    }
+
+    for (auto& pozycja : zamowienie.pozycje)
+    {
+        cout << "Danie: " << pozycja.danie.nazwa << endl;
+        cout << "Ilosc: " << pozycja.ilosc << endl;
+        cout << "Cena: " << pozycja.danie.cena << WALUTA << endl;
+        cout << "Calkowita cena: " << pozycja.ilosc * pozycja.danie.cena << WALUTA << endl;
+    }
+    cout <<"Czas zamowienia:" << zamowienie.preferowanyCzas << " Calkowity koszt: " << zamowienie.zliczKoszt() << endl;
+    ss >> paragon;
+    return paragon;
+}
 int main() {
-	/* wszystkieDania = {
-			 Danie("Kebs", 25, 15),
-			 Danie("Onion Orbits", 12, 10),
-			 Danie("Tatar awatar", 17, 10)
-	 };*/
+    /* wszystkieDania = {
+             Danie("Kebs", 25, 15),
+             Danie("Onion Orbits", 12, 10),
+             Danie("Tatar awatar", 17, 10)
+     };*/
 
-	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
-	
+    wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
 
+   ;
 
+    zamowienie.imieKlienta = "Adam";
+    //zamowienie.numer = 2137;
+    //zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
+    //zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
 
-	//zamowienie.numer = 2137;
-	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
-	//zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
-	
-	wypisz(wszystkieDania);
-	wypisz(zamowienie);
-	std::cout << "czas zamowienia: " << zamowienie.czasZamowienia() << "\n";
-	std::cout << "koszt zamowiena: " << zamowienie.zliczKoszt() << "\n";
-	return 0;
+    wypisz(wszystkieDania);
+    wypisz(zamowienie);
+    std::cout << "czas zamowienia: " << zamowienie.czasZamowienia() << "\n";
+    std::cout << "koszt zamowiena: " << zamowienie.zliczKoszt() << "\n";
+    zamowDanie(wszystkieDania[1]);
+    zamowDanie(wszystkieDania[2]);
+    zamowDanie(wszystkieDania[3]);
+    cout << generujParagon() << endl;
+    return 0;
+
 }
