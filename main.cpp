@@ -1,6 +1,8 @@
 #include "tawerna.h"
 #include <iostream>
 #include <fstream>
+#include <sstream>
+#include <algorithm>
 
 vector<Danie> wszystkieDania;
 Zamowienie zamowienie;
@@ -150,6 +152,46 @@ vector<Danie> wczytajDaniazPliku(string sciezka)
 	return dania;
 }
 
+
+string sprawdzGodzineIdate(string h, string m, string dz, string mi, string ro) {
+	int godz, min, dzien, miesiac, rok;
+
+	stringstream(h) >> godz;
+	stringstream(m) >> min;
+	stringstream(dz) >> dzien;
+	stringstream(mi) >> miesiac;
+	stringstream(ro) >> rok;
+
+
+	if (godz < 11 || godz > 20 || min < 0 || min > 59)
+		return "podaj prawid³ow¹ godzinê";
+
+	if (rok < 2022 || rok > 2023)
+		return "Podaj w³aœciwy rok";
+	
+	
+	if (miesiac == 1 || miesiac == 3 || miesiac == 5 || miesiac == 7 || miesiac == 8 || miesiac == 10 || miesiac == 12)
+	{
+		if (dzien < 1 || dzien > 31)
+			return "Podaj w³aœciwy dzieñ";
+	}
+	else if (miesiac == 2)
+	{
+		if (dzien < 1 || dzien > 28)
+			return "Podaj w³aœciwy dzieñ";
+	}
+	else if (miesiac == 4 || miesiac == 6 || miesiac == 9 || miesiac == 11)
+	{
+		if (dzien < 1 || dzien > 30)
+			return "Podaj w³aœciwy dzieñ";
+	}
+	else
+		return "Podaj w³aœciwy miesiac";
+
+	return "";
+}
+
+
 int main() {
 	/* wszystkieDania = {
 			 Danie("Kebs", 25, 15),
@@ -159,15 +201,14 @@ int main() {
 
 	wszystkieDania = wczytajDaniazPliku("karta_dan.csv");
 	
-
-
-
 	//zamowienie.numer = 2137;
 	//zamowienie.pozycje.emplace_back(wszystkieDania[0], 1);
 	//zamowienie.pozycje.emplace_back(wszystkieDania[1], 2);
 	
 	wypisz(wszystkieDania);
 	wypisz(zamowienie);
+
+
 	std::cout << "czas zamowienia: " << zamowienie.czasZamowienia() << "\n";
 	std::cout << "koszt zamowiena: " << zamowienie.zliczKoszt() << "\n";
 	return 0;
