@@ -3,8 +3,30 @@
 #include <fstream>
 #include <vector>
 #include <ctime>
+#include <iostream>
+#include <iomanip>
+#include <map>
+#include <numeric>
+#include <iterator>
+#include <sstream>
+#include <algorithm>
+#include "ftxui/component/captured_mouse.hpp"      // for ftxui
+#include "ftxui/component/component.hpp"           // for Menu
+#include "ftxui/component/component_options.hpp"   // for MenuOption
+#include "ftxui/component/screen_interactive.hpp"  // for ScreenInteractive
+#include "ftxui/dom/elements.hpp"
+#include "ftxui/screen/screen.hpp"
+#include "ftxui/screen/string.hpp"
+#include "ftxui/component/component.hpp"  // for Renderer, CatchEvent, Horizontal, Menu, Tab
+#include "ftxui/component/component_base.hpp"      // for ComponentBase
+#include "ftxui/component/event.hpp"               // for Event
+#include "ftxui/component/mouse.hpp"               // for Mouse
+#include "ftxui/component/screen_interactive.hpp"  // for ScreenInteractive
+#include "ftxui/dom/canvas.hpp"                    // for Canvas
+#include "ftxui/screen/color.hpp"  // for Color, Color::Red, Color::Blue, Color::Green, ftxui
 
 using namespace std;
+using namespace ftxui;
 
 const string WALUTA = "MGD";
 
@@ -55,8 +77,12 @@ public:
     string imieKlienta {};
     string adres {};
     bool naWynos = false;
+    string h {};
+    string m {};
+    string dz {};
+    string mc {};
+    string ro {};
     int stolik {};
-    time_t preferowanyCzas {};
     vector<Pozycja> pozycje {};
     int zliczKoszt();
     int czasZamowienia();
