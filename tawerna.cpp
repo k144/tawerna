@@ -33,12 +33,16 @@ int Zamowienie::zliczKoszt()
 
 int Zamowienie::czasZamowienia()
 {
+    if (pozycje.size() == 0)
+        return 0;
+
     int czasZam = 0;
     for (int i = 0; i < pozycje.size(); i++)
     {
         if (czasZam < pozycje[i].danie.czasWykonaniaMin)
             czasZam = pozycje[i].danie.czasWykonaniaMin;
     }
+    czasZam += (pozycje.size()-1) * 2;
     return czasZam;
 }
 
@@ -68,7 +72,7 @@ void wypisz(const Pozycja &pozycja,  string end="\n\n") {
 void wypisz(const Zamowienie &zamowienie)
 {
     cout << "Zamowienie nr. " << zamowienie.numer << ", ";
-    cout << (zamowienie.naWynos ? "na wynos" : "na miejscu");
+    cout << (zamowienie.zDostawa ? "na wynos" : "na miejscu");
     cout << ": \n";
 
     size_t count = 0;

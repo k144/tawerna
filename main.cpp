@@ -297,10 +297,47 @@ vector<shared_ptr<Node>> renderujKoszyk()
         koszyk.emplace_back(paragraph("   " + skladniki));
     }
     koszyk.emplace_back(text("RAZEM: " + to_string(zamowienie.zliczKoszt()) + " " + WALUTA) | align_right);
+    koszyk.emplace_back(text("Przewidywany czas realizacji: " + to_string(zamowienie.czasZamowienia()) + " min") | align_right);
 
     return koszyk;
 }
 
+string generujParagon()
+{
+    string paragon;
+    stringstream ss;
+
+    cout << zamowienie.imieKlienta << endl;
+    if (zamowienie.zDostawa ) {
+        cout << zamowienie.adres << endl;
+    } else {
+        cout << "Stolik nr. " << zamowienie.stolik + 1 << endl;
+    }
+
+    for (auto& pozycja : zamowienie.pozycje)
+    {
+        cout << endl;
+        cout << "Danie: " << pozycja.danie.nazwa << endl;
+        cout << "Ilosc: " << pozycja.ilosc << endl;
+        cout << "Cena jednostkowa: " << pozycja.danie.cena << " " << WALUTA << endl;
+        cout << "Calkowita cena: " << pozycja.ilosc * pozycja.danie.cena << " " << WALUTA << endl;
+    }
+
+    cout << endl;
+    int koszt = zamowienie.zliczKoszt();
+
+    if (zamowienie.zDostawa)
+    {
+        koszt += 5;
+        cout << "Koszt dostawy: 5 " + WALUTA << endl
+             <<"Przewidywana dostawa: " << zamowienie.h << ":" << zamowienie.m << " "
+             << zamowienie.dz << "/" << zamowienie.mc << "/" << zamowienie.ro << endl;
+    }
+
+    cout<< "Calkowity koszt: " << koszt << " " << WALUTA << endl;
+    ss >> paragon;
+    return paragon;
+}
 
 
 int main() {
@@ -328,10 +365,10 @@ int main() {
     }
     auto stolik = Dropdown(&stoliki, &(zamowienie.stolik));
 
-    auto wynosCheckbox = Checkbox("Zamów na wynos", &(zamowienie.naWynos), CheckboxOption::Simple());
+    auto wynosCheckbox = Checkbox("Zamów z dostawą", &(zamowienie.zDostawa), CheckboxOption::Simple());
     auto guzik_formularz2 = Button("Dalej", [&] { wybrane_okno = 1; }, ButtonOption::Simple());
     auto guzik_karta = Button("Przejdz do karty dań", [&] {
-        if (!zamowienie.naWynos || (sprawdzGodzineIdate().empty() && sprawdzOtwarcie().empty()))
+        if (!zamowienie.zDostawa || (sprawdzGodzineIdate().empty() && sprawdzOtwarcie().empty()))
             wybrane_okno = 2;
 
         }, ButtonOption::Simple());
@@ -341,6 +378,8 @@ int main() {
         return vbox({
             vbox({
                 text("KARCZMA POD SUPERNOWĄ") | center,
+                text("Adres: ul Zaranna 33, SuperNova") | center,
+                text("Właściciel: Syriusz Black") | center,
             }) | borderRounded | size(WIDTH, LESS_THAN, 90) | size(WIDTH, GREATER_THAN, 61) | center,
             hbox({
                 window(text("Formularz") | hcenter, vbox({
@@ -354,7 +393,7 @@ int main() {
 
 
     auto okno_formularz2 = Renderer([&] {
-        auto form =  zamowienie.naWynos
+        auto form =  zamowienie.zDostawa
         ? window(text("Formularz"),
                    vbox({
                        window(text("Twój adres"), adres->Render()),
@@ -429,6 +468,19 @@ int main() {
     });
 
     screen.Loop(renderer);
+
+
+    cout << generujParagon();
+
+    ofstream plikParagonu("paragon.txt");
+    if (plikParagonu.is_open())
+    {
+        plikParagonu << generujParagon() << endl;
+    } else {
+        cout << "Nie udało się utworzyć pliku paragonu." << endl;
+    }
+
+    plikParagonu.close();
 
 	return 0;
 }

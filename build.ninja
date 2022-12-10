@@ -47,14 +47,14 @@ build cmake_object_order_depends_target_tawerna: phony || cmake_object_order_dep
 build CMakeFiles/tawerna.dir/main.cpp.o: CXX_COMPILER__tawerna_ /home/kuba/dev/tawerna/main.cpp || cmake_object_order_depends_target_tawerna
   DEP_FILE = CMakeFiles/tawerna.dir/main.cpp.o.d
   FLAGS = -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = CMakeFiles/tawerna.dir
   OBJECT_FILE_DIR = CMakeFiles/tawerna.dir
 
 build CMakeFiles/tawerna.dir/tawerna.cpp.o: CXX_COMPILER__tawerna_ /home/kuba/dev/tawerna/tawerna.cpp || cmake_object_order_depends_target_tawerna
   DEP_FILE = CMakeFiles/tawerna.dir/tawerna.cpp.o.d
   FLAGS = -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = CMakeFiles/tawerna.dir
   OBJECT_FILE_DIR = CMakeFiles/tawerna.dir
 
@@ -180,42 +180,42 @@ build cmake_object_order_depends_target_screen: phony || _deps/ftxui-build/CMake
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/box.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/color.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/color_info.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/screen.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/string.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
 build _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: CXX_COMPILER__screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/screen/terminal.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen
 
@@ -246,245 +246,245 @@ build cmake_object_order_depends_target_dom: phony || cmake_object_order_depends
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/automerge.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/blink.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/bold.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/border.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/box_helper.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/canvas.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/clear_under.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/color.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/composite_decorator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/dbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/dim.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/flex.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/flexbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/flexbox_config.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/flexbox_helper.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/focus.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/frame.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/gauge.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/graph.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/gridbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/hbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/inverted.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/node.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/node_decorator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/paragraph.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/reflect.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/scroll_indicator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/separator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/size.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/spinner.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/table.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/text.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/underlined.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/util.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
 build _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: CXX_COMPILER__dom_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/dom/vbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom
 
@@ -515,140 +515,154 @@ build cmake_object_order_depends_target_component: phony || cmake_object_order_d
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/animation.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/button.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/catch_event.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/checkbox.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/collapsible.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/component.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/component_options.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/container.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/dropdown.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/event.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/input.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
+
+build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/loop.cpp || cmake_object_order_depends_target_component
+  DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/maybe.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/menu.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
+
+build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/modal.cpp || cmake_object_order_depends_target_component
+  DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/radiobox.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/renderer.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/slider.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
 build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: CXX_COMPILER__component_ /home/kuba/dev/tawerna/_deps/ftxui-src/src/ftxui/component/util.cpp || cmake_object_order_depends_target_component
   DEP_FILE = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o.d
   FLAGS = -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror -Wmissing-declarations -Wdeprecated -Wshadow
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include -I/home/kuba/dev/tawerna/_deps/ftxui-src/src
+  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/src -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component
 
@@ -660,7 +674,7 @@ build _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o:
 #############################################
 # Link the static library _deps/ftxui-build/libftxui-component.a
 
-build _deps/ftxui-build/libftxui-component.a: CXX_STATIC_LIBRARY_LINKER__component_ _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o || _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
+build _deps/ftxui-build/libftxui-component.a: CXX_STATIC_LIBRARY_LINKER__component_ _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o || _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
   OBJECT_DIR = _deps/ftxui-build/CMakeFiles/component.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -866,8 +880,8 @@ build cmake_object_order_depends_target_ftxui_example_button: phony || cmake_obj
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/button.cpp.o: CXX_COMPILER__ftxui_example_button_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/button.cpp || cmake_object_order_depends_target_ftxui_example_button
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir/button.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button.dir
 
@@ -898,8 +912,8 @@ build cmake_object_order_depends_target_ftxui_example_button_animated: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_animated.dir/button_animated.cpp.o: CXX_COMPILER__ftxui_example_button_animated_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/button_animated.cpp || cmake_object_order_depends_target_ftxui_example_button_animated
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_animated.dir/button_animated.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_animated.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_animated.dir
 
@@ -930,8 +944,8 @@ build cmake_object_order_depends_target_ftxui_example_button_in_frame: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_in_frame.dir/button_in_frame.cpp.o: CXX_COMPILER__ftxui_example_button_in_frame_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/button_in_frame.cpp || cmake_object_order_depends_target_ftxui_example_button_in_frame
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_in_frame.dir/button_in_frame.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_in_frame.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_in_frame.dir
 
@@ -962,8 +976,8 @@ build cmake_object_order_depends_target_ftxui_example_button_style: phony || cma
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_style.dir/button_style.cpp.o: CXX_COMPILER__ftxui_example_button_style_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/button_style.cpp || cmake_object_order_depends_target_ftxui_example_button_style
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_style.dir/button_style.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_style.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_button_style.dir
 
@@ -994,8 +1008,8 @@ build cmake_object_order_depends_target_ftxui_example_canvas_animated: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/canvas_animated.cpp.o: CXX_COMPILER__ftxui_example_canvas_animated_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/canvas_animated.cpp || cmake_object_order_depends_target_ftxui_example_canvas_animated
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir/canvas_animated.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_canvas_animated.dir
 
@@ -1026,8 +1040,8 @@ build cmake_object_order_depends_target_ftxui_example_checkbox: phony || cmake_o
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/checkbox.cpp.o: CXX_COMPILER__ftxui_example_checkbox_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/checkbox.cpp || cmake_object_order_depends_target_ftxui_example_checkbox
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir/checkbox.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox.dir
 
@@ -1058,8 +1072,8 @@ build cmake_object_order_depends_target_ftxui_example_checkbox_in_frame: phony |
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/checkbox_in_frame.cpp.o: CXX_COMPILER__ftxui_example_checkbox_in_frame_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/checkbox_in_frame.cpp || cmake_object_order_depends_target_ftxui_example_checkbox_in_frame
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir/checkbox_in_frame.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_checkbox_in_frame.dir
 
@@ -1090,8 +1104,8 @@ build cmake_object_order_depends_target_ftxui_example_collapsible: phony || cmak
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/collapsible.cpp.o: CXX_COMPILER__ftxui_example_collapsible_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/collapsible.cpp || cmake_object_order_depends_target_ftxui_example_collapsible
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir/collapsible.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_collapsible.dir
 
@@ -1122,8 +1136,8 @@ build cmake_object_order_depends_target_ftxui_example_composition: phony || cmak
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/composition.cpp.o: CXX_COMPILER__ftxui_example_composition_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/composition.cpp || cmake_object_order_depends_target_ftxui_example_composition
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir/composition.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_composition.dir
 
@@ -1144,6 +1158,38 @@ build _deps/ftxui-build/examples/component/ftxui_example_composition: CXX_EXECUT
   TARGET_PDB = ftxui_example_composition.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ftxui_example_custom_loop
+
+
+#############################################
+# Order-only phony target for ftxui_example_custom_loop
+
+build cmake_object_order_depends_target_ftxui_example_custom_loop: phony || cmake_object_order_depends_target_component cmake_object_order_depends_target_dom cmake_object_order_depends_target_screen
+
+build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir/custom_loop.cpp.o: CXX_COMPILER__ftxui_example_custom_loop_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/custom_loop.cpp || cmake_object_order_depends_target_ftxui_example_custom_loop
+  DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir/custom_loop.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ftxui_example_custom_loop
+
+
+#############################################
+# Link the executable _deps/ftxui-build/examples/component/ftxui_example_custom_loop
+
+build _deps/ftxui-build/examples/component/ftxui_example_custom_loop: CXX_EXECUTABLE_LINKER__ftxui_example_custom_loop_ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir/custom_loop.cpp.o | _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a || _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
+  LINK_LIBRARIES = _deps/ftxui-build/libftxui-component.a  _deps/ftxui-build/libftxui-dom.a  _deps/ftxui-build/libftxui-screen.a
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_custom_loop.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = _deps/ftxui-build/examples/component/ftxui_example_custom_loop
+  TARGET_PDB = ftxui_example_custom_loop.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ftxui_example_dropdown
 
 
@@ -1154,8 +1200,8 @@ build cmake_object_order_depends_target_ftxui_example_dropdown: phony || cmake_o
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/dropdown.cpp.o: CXX_COMPILER__ftxui_example_dropdown_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/dropdown.cpp || cmake_object_order_depends_target_ftxui_example_dropdown
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir/dropdown.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_dropdown.dir
 
@@ -1186,8 +1232,8 @@ build cmake_object_order_depends_target_ftxui_example_flexbox_gallery: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/flexbox_gallery.cpp.o: CXX_COMPILER__ftxui_example_flexbox_gallery_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/flexbox_gallery.cpp || cmake_object_order_depends_target_ftxui_example_flexbox_gallery
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir/flexbox_gallery.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_flexbox_gallery.dir
 
@@ -1218,8 +1264,8 @@ build cmake_object_order_depends_target_ftxui_example_focus: phony || cmake_obje
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/focus.cpp.o: CXX_COMPILER__ftxui_example_focus_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/focus.cpp || cmake_object_order_depends_target_ftxui_example_focus
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir/focus.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus.dir
 
@@ -1240,6 +1286,38 @@ build _deps/ftxui-build/examples/component/ftxui_example_focus: CXX_EXECUTABLE_L
   TARGET_PDB = ftxui_example_focus.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ftxui_example_focus_cursor
+
+
+#############################################
+# Order-only phony target for ftxui_example_focus_cursor
+
+build cmake_object_order_depends_target_ftxui_example_focus_cursor: phony || cmake_object_order_depends_target_component cmake_object_order_depends_target_dom cmake_object_order_depends_target_screen
+
+build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir/focus_cursor.cpp.o: CXX_COMPILER__ftxui_example_focus_cursor_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/focus_cursor.cpp || cmake_object_order_depends_target_ftxui_example_focus_cursor
+  DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir/focus_cursor.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ftxui_example_focus_cursor
+
+
+#############################################
+# Link the executable _deps/ftxui-build/examples/component/ftxui_example_focus_cursor
+
+build _deps/ftxui-build/examples/component/ftxui_example_focus_cursor: CXX_EXECUTABLE_LINKER__ftxui_example_focus_cursor_ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir/focus_cursor.cpp.o | _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a || _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
+  LINK_LIBRARIES = _deps/ftxui-build/libftxui-component.a  _deps/ftxui-build/libftxui-dom.a  _deps/ftxui-build/libftxui-screen.a
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_focus_cursor.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = _deps/ftxui-build/examples/component/ftxui_example_focus_cursor
+  TARGET_PDB = ftxui_example_focus_cursor.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ftxui_example_gallery
 
 
@@ -1250,8 +1328,8 @@ build cmake_object_order_depends_target_ftxui_example_gallery: phony || cmake_ob
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/gallery.cpp.o: CXX_COMPILER__ftxui_example_gallery_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/gallery.cpp || cmake_object_order_depends_target_ftxui_example_gallery
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir/gallery.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_gallery.dir
 
@@ -1282,8 +1360,8 @@ build cmake_object_order_depends_target_ftxui_example_homescreen: phony || cmake
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/homescreen.cpp.o: CXX_COMPILER__ftxui_example_homescreen_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/homescreen.cpp || cmake_object_order_depends_target_ftxui_example_homescreen
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir/homescreen.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_homescreen.dir
 
@@ -1314,8 +1392,8 @@ build cmake_object_order_depends_target_ftxui_example_input: phony || cmake_obje
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/input.cpp.o: CXX_COMPILER__ftxui_example_input_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/input.cpp || cmake_object_order_depends_target_ftxui_example_input
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir/input.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_input.dir
 
@@ -1346,8 +1424,8 @@ build cmake_object_order_depends_target_ftxui_example_maybe: phony || cmake_obje
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/maybe.cpp.o: CXX_COMPILER__ftxui_example_maybe_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/maybe.cpp || cmake_object_order_depends_target_ftxui_example_maybe
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir/maybe.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_maybe.dir
 
@@ -1378,8 +1456,8 @@ build cmake_object_order_depends_target_ftxui_example_menu: phony || cmake_objec
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/menu.cpp.o: CXX_COMPILER__ftxui_example_menu_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu.cpp || cmake_object_order_depends_target_ftxui_example_menu
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir/menu.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu.dir
 
@@ -1410,8 +1488,8 @@ build cmake_object_order_depends_target_ftxui_example_menu2: phony || cmake_obje
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/menu2.cpp.o: CXX_COMPILER__ftxui_example_menu2_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu2.cpp || cmake_object_order_depends_target_ftxui_example_menu2
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir/menu2.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu2.dir
 
@@ -1442,8 +1520,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_entries: phony || cma
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/menu_entries.cpp.o: CXX_COMPILER__ftxui_example_menu_entries_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_entries.cpp || cmake_object_order_depends_target_ftxui_example_menu_entries
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir/menu_entries.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries.dir
 
@@ -1474,8 +1552,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_entries_animated: pho
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries_animated.dir/menu_entries_animated.cpp.o: CXX_COMPILER__ftxui_example_menu_entries_animated_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_entries_animated.cpp || cmake_object_order_depends_target_ftxui_example_menu_entries_animated
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries_animated.dir/menu_entries_animated.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries_animated.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_entries_animated.dir
 
@@ -1506,8 +1584,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_in_frame: phony || cm
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/menu_in_frame.cpp.o: CXX_COMPILER__ftxui_example_menu_in_frame_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_in_frame.cpp || cmake_object_order_depends_target_ftxui_example_menu_in_frame
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir/menu_in_frame.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_in_frame.dir
 
@@ -1538,8 +1616,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_multiple: phony || cm
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/menu_multiple.cpp.o: CXX_COMPILER__ftxui_example_menu_multiple_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_multiple.cpp || cmake_object_order_depends_target_ftxui_example_menu_multiple
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir/menu_multiple.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_multiple.dir
 
@@ -1570,8 +1648,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_style: phony || cmake
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/menu_style.cpp.o: CXX_COMPILER__ftxui_example_menu_style_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_style.cpp || cmake_object_order_depends_target_ftxui_example_menu_style
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir/menu_style.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_style.dir
 
@@ -1602,8 +1680,8 @@ build cmake_object_order_depends_target_ftxui_example_menu_underline_animated_ga
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_underline_animated_gallery.dir/menu_underline_animated_gallery.cpp.o: CXX_COMPILER__ftxui_example_menu_underline_animated_gallery_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/menu_underline_animated_gallery.cpp || cmake_object_order_depends_target_ftxui_example_menu_underline_animated_gallery
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_underline_animated_gallery.dir/menu_underline_animated_gallery.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_underline_animated_gallery.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_menu_underline_animated_gallery.dir
 
@@ -1634,8 +1712,8 @@ build cmake_object_order_depends_target_ftxui_example_modal_dialog: phony || cma
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/modal_dialog.cpp.o: CXX_COMPILER__ftxui_example_modal_dialog_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/modal_dialog.cpp || cmake_object_order_depends_target_ftxui_example_modal_dialog
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir/modal_dialog.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog.dir
 
@@ -1656,6 +1734,38 @@ build _deps/ftxui-build/examples/component/ftxui_example_modal_dialog: CXX_EXECU
   TARGET_PDB = ftxui_example_modal_dialog.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ftxui_example_modal_dialog_custom
+
+
+#############################################
+# Order-only phony target for ftxui_example_modal_dialog_custom
+
+build cmake_object_order_depends_target_ftxui_example_modal_dialog_custom: phony || cmake_object_order_depends_target_component cmake_object_order_depends_target_dom cmake_object_order_depends_target_screen
+
+build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir/modal_dialog_custom.cpp.o: CXX_COMPILER__ftxui_example_modal_dialog_custom_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/modal_dialog_custom.cpp || cmake_object_order_depends_target_ftxui_example_modal_dialog_custom
+  DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir/modal_dialog_custom.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ftxui_example_modal_dialog_custom
+
+
+#############################################
+# Link the executable _deps/ftxui-build/examples/component/ftxui_example_modal_dialog_custom
+
+build _deps/ftxui-build/examples/component/ftxui_example_modal_dialog_custom: CXX_EXECUTABLE_LINKER__ftxui_example_modal_dialog_custom_ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir/modal_dialog_custom.cpp.o | _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a || _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
+  LINK_LIBRARIES = _deps/ftxui-build/libftxui-component.a  _deps/ftxui-build/libftxui-dom.a  _deps/ftxui-build/libftxui-screen.a
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_modal_dialog_custom.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = _deps/ftxui-build/examples/component/ftxui_example_modal_dialog_custom
+  TARGET_PDB = ftxui_example_modal_dialog_custom.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ftxui_example_nested_screen
 
 
@@ -1666,8 +1776,8 @@ build cmake_object_order_depends_target_ftxui_example_nested_screen: phony || cm
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/nested_screen.cpp.o: CXX_COMPILER__ftxui_example_nested_screen_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/nested_screen.cpp || cmake_object_order_depends_target_ftxui_example_nested_screen
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir/nested_screen.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_nested_screen.dir
 
@@ -1698,8 +1808,8 @@ build cmake_object_order_depends_target_ftxui_example_print_key_press: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/print_key_press.cpp.o: CXX_COMPILER__ftxui_example_print_key_press_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/print_key_press.cpp || cmake_object_order_depends_target_ftxui_example_print_key_press
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir/print_key_press.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_print_key_press.dir
 
@@ -1730,8 +1840,8 @@ build cmake_object_order_depends_target_ftxui_example_radiobox: phony || cmake_o
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/radiobox.cpp.o: CXX_COMPILER__ftxui_example_radiobox_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/radiobox.cpp || cmake_object_order_depends_target_ftxui_example_radiobox
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir/radiobox.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox.dir
 
@@ -1762,8 +1872,8 @@ build cmake_object_order_depends_target_ftxui_example_radiobox_in_frame: phony |
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/radiobox_in_frame.cpp.o: CXX_COMPILER__ftxui_example_radiobox_in_frame_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/radiobox_in_frame.cpp || cmake_object_order_depends_target_ftxui_example_radiobox_in_frame
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir/radiobox_in_frame.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_radiobox_in_frame.dir
 
@@ -1794,8 +1904,8 @@ build cmake_object_order_depends_target_ftxui_example_renderer: phony || cmake_o
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/renderer.cpp.o: CXX_COMPILER__ftxui_example_renderer_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/renderer.cpp || cmake_object_order_depends_target_ftxui_example_renderer
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir/renderer.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_renderer.dir
 
@@ -1826,8 +1936,8 @@ build cmake_object_order_depends_target_ftxui_example_resizable_split: phony || 
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/resizable_split.cpp.o: CXX_COMPILER__ftxui_example_resizable_split_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/resizable_split.cpp || cmake_object_order_depends_target_ftxui_example_resizable_split
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir/resizable_split.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_resizable_split.dir
 
@@ -1858,8 +1968,8 @@ build cmake_object_order_depends_target_ftxui_example_slider: phony || cmake_obj
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/slider.cpp.o: CXX_COMPILER__ftxui_example_slider_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/slider.cpp || cmake_object_order_depends_target_ftxui_example_slider
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir/slider.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider.dir
 
@@ -1880,6 +1990,38 @@ build _deps/ftxui-build/examples/component/ftxui_example_slider: CXX_EXECUTABLE_
   TARGET_PDB = ftxui_example_slider.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ftxui_example_slider_direction
+
+
+#############################################
+# Order-only phony target for ftxui_example_slider_direction
+
+build cmake_object_order_depends_target_ftxui_example_slider_direction: phony || cmake_object_order_depends_target_component cmake_object_order_depends_target_dom cmake_object_order_depends_target_screen
+
+build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir/slider_direction.cpp.o: CXX_COMPILER__ftxui_example_slider_direction_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/slider_direction.cpp || cmake_object_order_depends_target_ftxui_example_slider_direction
+  DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir/slider_direction.cpp.o.d
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir
+  OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ftxui_example_slider_direction
+
+
+#############################################
+# Link the executable _deps/ftxui-build/examples/component/ftxui_example_slider_direction
+
+build _deps/ftxui-build/examples/component/ftxui_example_slider_direction: CXX_EXECUTABLE_LINKER__ftxui_example_slider_direction_ _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir/slider_direction.cpp.o | _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a || _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a
+  LINK_LIBRARIES = _deps/ftxui-build/libftxui-component.a  _deps/ftxui-build/libftxui-dom.a  _deps/ftxui-build/libftxui-screen.a
+  OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_direction.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = _deps/ftxui-build/examples/component/ftxui_example_slider_direction
+  TARGET_PDB = ftxui_example_slider_direction.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ftxui_example_slider_rgb
 
 
@@ -1890,8 +2032,8 @@ build cmake_object_order_depends_target_ftxui_example_slider_rgb: phony || cmake
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/slider_rgb.cpp.o: CXX_COMPILER__ftxui_example_slider_rgb_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/slider_rgb.cpp || cmake_object_order_depends_target_ftxui_example_slider_rgb
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir/slider_rgb.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_slider_rgb.dir
 
@@ -1922,8 +2064,8 @@ build cmake_object_order_depends_target_ftxui_example_tab_horizontal: phony || c
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/tab_horizontal.cpp.o: CXX_COMPILER__ftxui_example_tab_horizontal_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/tab_horizontal.cpp || cmake_object_order_depends_target_ftxui_example_tab_horizontal
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir/tab_horizontal.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_horizontal.dir
 
@@ -1954,8 +2096,8 @@ build cmake_object_order_depends_target_ftxui_example_tab_vertical: phony || cma
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/tab_vertical.cpp.o: CXX_COMPILER__ftxui_example_tab_vertical_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/tab_vertical.cpp || cmake_object_order_depends_target_ftxui_example_tab_vertical
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir/tab_vertical.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_tab_vertical.dir
 
@@ -1986,8 +2128,8 @@ build cmake_object_order_depends_target_ftxui_example_toggle: phony || cmake_obj
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/toggle.cpp.o: CXX_COMPILER__ftxui_example_toggle_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/toggle.cpp || cmake_object_order_depends_target_ftxui_example_toggle
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir/toggle.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_toggle.dir
 
@@ -2018,8 +2160,8 @@ build cmake_object_order_depends_target_ftxui_example_with_restored_io: phony ||
 
 build _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/with_restored_io.cpp.o: CXX_COMPILER__ftxui_example_with_restored_io_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/component/with_restored_io.cpp || cmake_object_order_depends_target_ftxui_example_with_restored_io
   DEP_FILE = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir/with_restored_io.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/component/CMakeFiles/ftxui_example_with_restored_io.dir
 
@@ -2144,8 +2286,8 @@ build cmake_object_order_depends_target_ftxui_example_border: phony || cmake_obj
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/border.cpp.o: CXX_COMPILER__ftxui_example_border_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/border.cpp || cmake_object_order_depends_target_ftxui_example_border
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir/border.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border.dir
 
@@ -2176,8 +2318,8 @@ build cmake_object_order_depends_target_ftxui_example_border_style: phony || cma
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/border_style.cpp.o: CXX_COMPILER__ftxui_example_border_style_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/border_style.cpp || cmake_object_order_depends_target_ftxui_example_border_style
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir/border_style.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_border_style.dir
 
@@ -2208,8 +2350,8 @@ build cmake_object_order_depends_target_ftxui_example_color_gallery: phony || cm
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/color_gallery.cpp.o: CXX_COMPILER__ftxui_example_color_gallery_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/color_gallery.cpp || cmake_object_order_depends_target_ftxui_example_color_gallery
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir/color_gallery.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_gallery.dir
 
@@ -2240,8 +2382,8 @@ build cmake_object_order_depends_target_ftxui_example_color_info_palette256: pho
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/color_info_palette256.cpp.o: CXX_COMPILER__ftxui_example_color_info_palette256_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/color_info_palette256.cpp || cmake_object_order_depends_target_ftxui_example_color_info_palette256
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir/color_info_palette256.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_info_palette256.dir
 
@@ -2272,8 +2414,8 @@ build cmake_object_order_depends_target_ftxui_example_color_truecolor_HSV: phony
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/color_truecolor_HSV.cpp.o: CXX_COMPILER__ftxui_example_color_truecolor_HSV_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/color_truecolor_HSV.cpp || cmake_object_order_depends_target_ftxui_example_color_truecolor_HSV
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir/color_truecolor_HSV.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_HSV.dir
 
@@ -2304,8 +2446,8 @@ build cmake_object_order_depends_target_ftxui_example_color_truecolor_RGB: phony
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/color_truecolor_RGB.cpp.o: CXX_COMPILER__ftxui_example_color_truecolor_RGB_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/color_truecolor_RGB.cpp || cmake_object_order_depends_target_ftxui_example_color_truecolor_RGB
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir/color_truecolor_RGB.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_color_truecolor_RGB.dir
 
@@ -2336,8 +2478,8 @@ build cmake_object_order_depends_target_ftxui_example_dbox: phony || cmake_objec
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/dbox.cpp.o: CXX_COMPILER__ftxui_example_dbox_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/dbox.cpp || cmake_object_order_depends_target_ftxui_example_dbox
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir/dbox.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_dbox.dir
 
@@ -2368,8 +2510,8 @@ build cmake_object_order_depends_target_ftxui_example_canvas: phony || cmake_obj
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/canvas.cpp.o: CXX_COMPILER__ftxui_example_canvas_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/canvas.cpp || cmake_object_order_depends_target_ftxui_example_canvas
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir/canvas.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_canvas.dir
 
@@ -2400,8 +2542,8 @@ build cmake_object_order_depends_target_ftxui_example_gauge: phony || cmake_obje
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/gauge.cpp.o: CXX_COMPILER__ftxui_example_gauge_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/gauge.cpp || cmake_object_order_depends_target_ftxui_example_gauge
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir/gauge.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge.dir
 
@@ -2432,8 +2574,8 @@ build cmake_object_order_depends_target_ftxui_example_gauge_direction: phony || 
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge_direction.dir/gauge_direction.cpp.o: CXX_COMPILER__ftxui_example_gauge_direction_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/gauge_direction.cpp || cmake_object_order_depends_target_ftxui_example_gauge_direction
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge_direction.dir/gauge_direction.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge_direction.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gauge_direction.dir
 
@@ -2464,8 +2606,8 @@ build cmake_object_order_depends_target_ftxui_example_graph: phony || cmake_obje
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/graph.cpp.o: CXX_COMPILER__ftxui_example_graph_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/graph.cpp || cmake_object_order_depends_target_ftxui_example_graph
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir/graph.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_graph.dir
 
@@ -2496,8 +2638,8 @@ build cmake_object_order_depends_target_ftxui_example_gridbox: phony || cmake_ob
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/gridbox.cpp.o: CXX_COMPILER__ftxui_example_gridbox_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/gridbox.cpp || cmake_object_order_depends_target_ftxui_example_gridbox
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir/gridbox.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_gridbox.dir
 
@@ -2528,8 +2670,8 @@ build cmake_object_order_depends_target_ftxui_example_hflow: phony || cmake_obje
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/hflow.cpp.o: CXX_COMPILER__ftxui_example_hflow_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/hflow.cpp || cmake_object_order_depends_target_ftxui_example_hflow
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir/hflow.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_hflow.dir
 
@@ -2560,8 +2702,8 @@ build cmake_object_order_depends_target_ftxui_example_html_like: phony || cmake_
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/html_like.cpp.o: CXX_COMPILER__ftxui_example_html_like_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/html_like.cpp || cmake_object_order_depends_target_ftxui_example_html_like
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir/html_like.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_html_like.dir
 
@@ -2592,8 +2734,8 @@ build cmake_object_order_depends_target_ftxui_example_package_manager: phony || 
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/package_manager.cpp.o: CXX_COMPILER__ftxui_example_package_manager_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/package_manager.cpp || cmake_object_order_depends_target_ftxui_example_package_manager
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir/package_manager.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_package_manager.dir
 
@@ -2624,8 +2766,8 @@ build cmake_object_order_depends_target_ftxui_example_paragraph: phony || cmake_
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/paragraph.cpp.o: CXX_COMPILER__ftxui_example_paragraph_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/paragraph.cpp || cmake_object_order_depends_target_ftxui_example_paragraph
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir/paragraph.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_paragraph.dir
 
@@ -2656,8 +2798,8 @@ build cmake_object_order_depends_target_ftxui_example_separator: phony || cmake_
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/separator.cpp.o: CXX_COMPILER__ftxui_example_separator_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/separator.cpp || cmake_object_order_depends_target_ftxui_example_separator
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir/separator.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator.dir
 
@@ -2688,8 +2830,8 @@ build cmake_object_order_depends_target_ftxui_example_separator_style: phony || 
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/separator_style.cpp.o: CXX_COMPILER__ftxui_example_separator_style_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/separator_style.cpp || cmake_object_order_depends_target_ftxui_example_separator_style
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir/separator_style.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_separator_style.dir
 
@@ -2720,8 +2862,8 @@ build cmake_object_order_depends_target_ftxui_example_size: phony || cmake_objec
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/size.cpp.o: CXX_COMPILER__ftxui_example_size_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/size.cpp || cmake_object_order_depends_target_ftxui_example_size
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir/size.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_size.dir
 
@@ -2752,8 +2894,8 @@ build cmake_object_order_depends_target_ftxui_example_spinner: phony || cmake_ob
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/spinner.cpp.o: CXX_COMPILER__ftxui_example_spinner_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/spinner.cpp || cmake_object_order_depends_target_ftxui_example_spinner
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir/spinner.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_spinner.dir
 
@@ -2784,8 +2926,8 @@ build cmake_object_order_depends_target_ftxui_example_style_blink: phony || cmak
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/style_blink.cpp.o: CXX_COMPILER__ftxui_example_style_blink_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_blink.cpp || cmake_object_order_depends_target_ftxui_example_style_blink
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir/style_blink.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_blink.dir
 
@@ -2816,8 +2958,8 @@ build cmake_object_order_depends_target_ftxui_example_style_bold: phony || cmake
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/style_bold.cpp.o: CXX_COMPILER__ftxui_example_style_bold_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_bold.cpp || cmake_object_order_depends_target_ftxui_example_style_bold
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir/style_bold.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_bold.dir
 
@@ -2848,8 +2990,8 @@ build cmake_object_order_depends_target_ftxui_example_style_color: phony || cmak
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/style_color.cpp.o: CXX_COMPILER__ftxui_example_style_color_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_color.cpp || cmake_object_order_depends_target_ftxui_example_style_color
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir/style_color.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_color.dir
 
@@ -2880,8 +3022,8 @@ build cmake_object_order_depends_target_ftxui_example_style_dim: phony || cmake_
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/style_dim.cpp.o: CXX_COMPILER__ftxui_example_style_dim_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_dim.cpp || cmake_object_order_depends_target_ftxui_example_style_dim
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir/style_dim.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_dim.dir
 
@@ -2912,8 +3054,8 @@ build cmake_object_order_depends_target_ftxui_example_style_gallery: phony || cm
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/style_gallery.cpp.o: CXX_COMPILER__ftxui_example_style_gallery_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_gallery.cpp || cmake_object_order_depends_target_ftxui_example_style_gallery
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir/style_gallery.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_gallery.dir
 
@@ -2944,8 +3086,8 @@ build cmake_object_order_depends_target_ftxui_example_style_inverted: phony || c
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/style_inverted.cpp.o: CXX_COMPILER__ftxui_example_style_inverted_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_inverted.cpp || cmake_object_order_depends_target_ftxui_example_style_inverted
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir/style_inverted.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_inverted.dir
 
@@ -2976,8 +3118,8 @@ build cmake_object_order_depends_target_ftxui_example_style_underlined: phony ||
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/style_underlined.cpp.o: CXX_COMPILER__ftxui_example_style_underlined_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/style_underlined.cpp || cmake_object_order_depends_target_ftxui_example_style_underlined
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir/style_underlined.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_style_underlined.dir
 
@@ -3008,8 +3150,8 @@ build cmake_object_order_depends_target_ftxui_example_table: phony || cmake_obje
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/table.cpp.o: CXX_COMPILER__ftxui_example_table_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/table.cpp || cmake_object_order_depends_target_ftxui_example_table
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir/table.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_table.dir
 
@@ -3040,8 +3182,8 @@ build cmake_object_order_depends_target_ftxui_example_vbox_hbox: phony || cmake_
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/vbox_hbox.cpp.o: CXX_COMPILER__ftxui_example_vbox_hbox_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/vbox_hbox.cpp || cmake_object_order_depends_target_ftxui_example_vbox_hbox
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir/vbox_hbox.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vbox_hbox.dir
 
@@ -3072,8 +3214,8 @@ build cmake_object_order_depends_target_ftxui_example_vflow: phony || cmake_obje
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/vflow.cpp.o: CXX_COMPILER__ftxui_example_vflow_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/vflow.cpp || cmake_object_order_depends_target_ftxui_example_vflow
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir/vflow.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_vflow.dir
 
@@ -3104,8 +3246,8 @@ build cmake_object_order_depends_target_ftxui_example_window: phony || cmake_obj
 
 build _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/window.cpp.o: CXX_COMPILER__ftxui_example_window_ /home/kuba/dev/tawerna/_deps/ftxui-src/examples/dom/window.cpp || cmake_object_order_depends_target_ftxui_example_window
   DEP_FILE = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir/window.cpp.o.d
-  FLAGS = -fdiagnostics-color=always
-  INCLUDES = -I/home/kuba/dev/tawerna/_deps/ftxui-src/include
+  FLAGS = -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem /home/kuba/dev/tawerna/_deps/ftxui-src/include
   OBJECT_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir
   OBJECT_FILE_DIR = _deps/ftxui-build/examples/dom/CMakeFiles/ftxui_example_window.dir
 
@@ -3363,6 +3505,8 @@ build ftxui_example_color_truecolor_RGB: phony _deps/ftxui-build/examples/dom/ft
 
 build ftxui_example_composition: phony _deps/ftxui-build/examples/component/ftxui_example_composition
 
+build ftxui_example_custom_loop: phony _deps/ftxui-build/examples/component/ftxui_example_custom_loop
+
 build ftxui_example_dbox: phony _deps/ftxui-build/examples/dom/ftxui_example_dbox
 
 build ftxui_example_dropdown: phony _deps/ftxui-build/examples/component/ftxui_example_dropdown
@@ -3370,6 +3514,8 @@ build ftxui_example_dropdown: phony _deps/ftxui-build/examples/component/ftxui_e
 build ftxui_example_flexbox_gallery: phony _deps/ftxui-build/examples/component/ftxui_example_flexbox_gallery
 
 build ftxui_example_focus: phony _deps/ftxui-build/examples/component/ftxui_example_focus
+
+build ftxui_example_focus_cursor: phony _deps/ftxui-build/examples/component/ftxui_example_focus_cursor
 
 build ftxui_example_gallery: phony _deps/ftxui-build/examples/component/ftxui_example_gallery
 
@@ -3409,6 +3555,8 @@ build ftxui_example_menu_underline_animated_gallery: phony _deps/ftxui-build/exa
 
 build ftxui_example_modal_dialog: phony _deps/ftxui-build/examples/component/ftxui_example_modal_dialog
 
+build ftxui_example_modal_dialog_custom: phony _deps/ftxui-build/examples/component/ftxui_example_modal_dialog_custom
+
 build ftxui_example_nested_screen: phony _deps/ftxui-build/examples/component/ftxui_example_nested_screen
 
 build ftxui_example_package_manager: phony _deps/ftxui-build/examples/dom/ftxui_example_package_manager
@@ -3432,6 +3580,8 @@ build ftxui_example_separator_style: phony _deps/ftxui-build/examples/dom/ftxui_
 build ftxui_example_size: phony _deps/ftxui-build/examples/dom/ftxui_example_size
 
 build ftxui_example_slider: phony _deps/ftxui-build/examples/component/ftxui_example_slider
+
+build ftxui_example_slider_direction: phony _deps/ftxui-build/examples/component/ftxui_example_slider_direction
 
 build ftxui_example_slider_rgb: phony _deps/ftxui-build/examples/component/ftxui_example_slider_rgb
 
@@ -3511,7 +3661,7 @@ build _deps/ftxui-build/examples/all: phony _deps/ftxui-build/examples/component
 #############################################
 # Folder: /home/kuba/dev/tawerna/_deps/ftxui-build/examples/component
 
-build _deps/ftxui-build/examples/component/all: phony _deps/ftxui-build/examples/component/ftxui_example_button _deps/ftxui-build/examples/component/ftxui_example_button_animated _deps/ftxui-build/examples/component/ftxui_example_button_in_frame _deps/ftxui-build/examples/component/ftxui_example_button_style _deps/ftxui-build/examples/component/ftxui_example_canvas_animated _deps/ftxui-build/examples/component/ftxui_example_checkbox _deps/ftxui-build/examples/component/ftxui_example_checkbox_in_frame _deps/ftxui-build/examples/component/ftxui_example_collapsible _deps/ftxui-build/examples/component/ftxui_example_composition _deps/ftxui-build/examples/component/ftxui_example_dropdown _deps/ftxui-build/examples/component/ftxui_example_flexbox_gallery _deps/ftxui-build/examples/component/ftxui_example_focus _deps/ftxui-build/examples/component/ftxui_example_gallery _deps/ftxui-build/examples/component/ftxui_example_homescreen _deps/ftxui-build/examples/component/ftxui_example_input _deps/ftxui-build/examples/component/ftxui_example_maybe _deps/ftxui-build/examples/component/ftxui_example_menu _deps/ftxui-build/examples/component/ftxui_example_menu2 _deps/ftxui-build/examples/component/ftxui_example_menu_entries _deps/ftxui-build/examples/component/ftxui_example_menu_entries_animated _deps/ftxui-build/examples/component/ftxui_example_menu_in_frame _deps/ftxui-build/examples/component/ftxui_example_menu_multiple _deps/ftxui-build/examples/component/ftxui_example_menu_style _deps/ftxui-build/examples/component/ftxui_example_menu_underline_animated_gallery _deps/ftxui-build/examples/component/ftxui_example_modal_dialog _deps/ftxui-build/examples/component/ftxui_example_nested_screen _deps/ftxui-build/examples/component/ftxui_example_print_key_press _deps/ftxui-build/examples/component/ftxui_example_radiobox _deps/ftxui-build/examples/component/ftxui_example_radiobox_in_frame _deps/ftxui-build/examples/component/ftxui_example_renderer _deps/ftxui-build/examples/component/ftxui_example_resizable_split _deps/ftxui-build/examples/component/ftxui_example_slider _deps/ftxui-build/examples/component/ftxui_example_slider_rgb _deps/ftxui-build/examples/component/ftxui_example_tab_horizontal _deps/ftxui-build/examples/component/ftxui_example_tab_vertical _deps/ftxui-build/examples/component/ftxui_example_toggle _deps/ftxui-build/examples/component/ftxui_example_with_restored_io
+build _deps/ftxui-build/examples/component/all: phony _deps/ftxui-build/examples/component/ftxui_example_button _deps/ftxui-build/examples/component/ftxui_example_button_animated _deps/ftxui-build/examples/component/ftxui_example_button_in_frame _deps/ftxui-build/examples/component/ftxui_example_button_style _deps/ftxui-build/examples/component/ftxui_example_canvas_animated _deps/ftxui-build/examples/component/ftxui_example_checkbox _deps/ftxui-build/examples/component/ftxui_example_checkbox_in_frame _deps/ftxui-build/examples/component/ftxui_example_collapsible _deps/ftxui-build/examples/component/ftxui_example_composition _deps/ftxui-build/examples/component/ftxui_example_custom_loop _deps/ftxui-build/examples/component/ftxui_example_dropdown _deps/ftxui-build/examples/component/ftxui_example_flexbox_gallery _deps/ftxui-build/examples/component/ftxui_example_focus _deps/ftxui-build/examples/component/ftxui_example_focus_cursor _deps/ftxui-build/examples/component/ftxui_example_gallery _deps/ftxui-build/examples/component/ftxui_example_homescreen _deps/ftxui-build/examples/component/ftxui_example_input _deps/ftxui-build/examples/component/ftxui_example_maybe _deps/ftxui-build/examples/component/ftxui_example_menu _deps/ftxui-build/examples/component/ftxui_example_menu2 _deps/ftxui-build/examples/component/ftxui_example_menu_entries _deps/ftxui-build/examples/component/ftxui_example_menu_entries_animated _deps/ftxui-build/examples/component/ftxui_example_menu_in_frame _deps/ftxui-build/examples/component/ftxui_example_menu_multiple _deps/ftxui-build/examples/component/ftxui_example_menu_style _deps/ftxui-build/examples/component/ftxui_example_menu_underline_animated_gallery _deps/ftxui-build/examples/component/ftxui_example_modal_dialog _deps/ftxui-build/examples/component/ftxui_example_modal_dialog_custom _deps/ftxui-build/examples/component/ftxui_example_nested_screen _deps/ftxui-build/examples/component/ftxui_example_print_key_press _deps/ftxui-build/examples/component/ftxui_example_radiobox _deps/ftxui-build/examples/component/ftxui_example_radiobox_in_frame _deps/ftxui-build/examples/component/ftxui_example_renderer _deps/ftxui-build/examples/component/ftxui_example_resizable_split _deps/ftxui-build/examples/component/ftxui_example_slider _deps/ftxui-build/examples/component/ftxui_example_slider_direction _deps/ftxui-build/examples/component/ftxui_example_slider_rgb _deps/ftxui-build/examples/component/ftxui_example_tab_horizontal _deps/ftxui-build/examples/component/ftxui_example_tab_vertical _deps/ftxui-build/examples/component/ftxui_example_toggle _deps/ftxui-build/examples/component/ftxui_example_with_restored_io
 
 # =============================================================================
 

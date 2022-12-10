@@ -49,7 +49,7 @@ public:
           cena(cena),
           czasWykonaniaMin(czasWykonaniaMin)
     {
-        cout << "Tworze danie " << nazwa << " za " << cena << WALUTA << ", czas wykonania: " << czasWykonaniaMin << " min" << endl;
+//        cout << "Tworze danie " << nazwa << " za " << cena << WALUTA << ", czas wykonania: " << czasWykonaniaMin << " min" << endl;
     }
 };
 
@@ -65,7 +65,7 @@ class Pozycja {
 public:
     Pozycja(Danie danie, unsigned short int ilosc) : danie(danie), ilosc(ilosc)
     {
-        cout << "Tworze pozycje " << ilosc << "x " << danie.nazwa << endl;
+//        cout << "Tworze pozycje " << ilosc << "x " << danie.nazwa << endl;
     }
     Danie danie;
     unsigned short int ilosc {};
@@ -76,7 +76,7 @@ public:
     int numer {};
     string imieKlienta {};
     string adres {};
-    bool naWynos = false;
+    bool zDostawa = false;
     string h {};
     string m {};
     string dz {};
