@@ -16,12 +16,14 @@ class Danie
     friend class MenuGlowne;
     void menu_dan();
 public:
+    short int kategoria {};
     string nazwa {};
     short int cena {};
     unsigned short int czasWykonaniaMin {};
     vector<string> skladniki {};
-    Danie(string nazwa, short int cena, unsigned short int czasWykonaniaMin)
-        : nazwa(nazwa),
+    Danie(short int kategoria, string nazwa, short int cena, unsigned short int czasWykonaniaMin)
+        : kategoria(kategoria),
+          nazwa(nazwa),
           cena(cena),
           czasWykonaniaMin(czasWykonaniaMin)
     {
@@ -57,6 +59,7 @@ public:
     time_t preferowanyCzas {};
     vector<Pozycja> pozycje {};
     int zliczKoszt();
+    int czasZamowienia();
 };
 //Zrobiłem paragon na voidzie z tego wzgledu ze nie jest wymagany zrobienia go w stringu
 //i tak jest najprosciej (wedlug mnie)
